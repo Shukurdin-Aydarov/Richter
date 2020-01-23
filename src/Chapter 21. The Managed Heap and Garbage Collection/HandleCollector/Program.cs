@@ -10,7 +10,7 @@ namespace HandleCollection
     {
         static void Main()
         {
-            while(true) HandleCollectorDemo();
+            HandleCollectorDemo();
 
             Console.ReadKey();
         }

@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 21. The Managed Hea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeWaitHandle", "Chapter 21. The Managed Heap and Garbage Collection\SafeWaitHandle\SafeWaitHandle.csproj", "{FE2358A3-C5FF-46B6-85EC-40239C472E1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryPressure", "Chapter 21. The Managed Heap and Garbage Collection\MemoryPressure\MemoryPressure.csproj", "{8259386B-098F-47A0-8976-A2E444F95F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleCollector", "Chapter 21. The Managed Heap and Garbage Collection\HandleCollector\HandleCollector.csproj", "{443F08D1-61BA-4801-BCF3-758DB394BF42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,22 @@ Global
 		{FE2358A3-C5FF-46B6-85EC-40239C472E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE2358A3-C5FF-46B6-85EC-40239C472E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE2358A3-C5FF-46B6-85EC-40239C472E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8259386B-098F-47A0-8976-A2E444F95F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8259386B-098F-47A0-8976-A2E444F95F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8259386B-098F-47A0-8976-A2E444F95F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8259386B-098F-47A0-8976-A2E444F95F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443F08D1-61BA-4801-BCF3-758DB394BF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443F08D1-61BA-4801-BCF3-758DB394BF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443F08D1-61BA-4801-BCF3-758DB394BF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443F08D1-61BA-4801-BCF3-758DB394BF42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FE2358A3-C5FF-46B6-85EC-40239C472E1E} = {B5AFCE2E-F6EB-481E-936A-2E4D842EABB5}
+		{8259386B-098F-47A0-8976-A2E444F95F4F} = {B5AFCE2E-F6EB-481E-936A-2E4D842EABB5}
+		{443F08D1-61BA-4801-BCF3-758DB394BF42} = {B5AFCE2E-F6EB-481E-936A-2E4D842EABB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E438D89A-9203-459C-9B8E-3AF9901167AC}

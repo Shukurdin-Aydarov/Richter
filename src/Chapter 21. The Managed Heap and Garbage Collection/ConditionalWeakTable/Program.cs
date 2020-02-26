@@ -14,7 +14,6 @@ namespace ConditionalWeakTable
             obj = null;
 
             GC.Collect(); // We'll see the GC notification sometime after this line
-
             Console.ReadKey();
         }
     }

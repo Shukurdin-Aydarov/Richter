@@ -15,7 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCHandle", "Chapter 21. The
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalWeakTable", "Chapter 21. The Managed Heap and Garbage Collection\ConditionalWeakTable\ConditionalWeakTable.csproj", "{938EE42F-0E15-4806-A5B6-534CE270E68B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFunctions.OldModel", "Chapter 28. IO-Bound Asynchronous Operations\AsyncFunctions.OldModel\AsyncFunctions.OldModel.csproj", "{6F55D23B-0185-4FB2-AAEF-68AFD5B4EA37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncFunctions.OldModel", "Chapter 28. IO-Bound Asynchronous Operations\AsyncFunctions.OldModel\AsyncFunctions.OldModel.csproj", "{6F55D23B-0185-4FB2-AAEF-68AFD5B4EA37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 28. IO-Bound Asynchronous Operations", "Chapter 28. IO-Bound Asynchronous Operations", "{CA6F8950-1299-40E6-8439-8BC90EF30263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 29. Primive Thread Synchronization Constructs", "Chapter 29. Primive Thread Synchronization Constructs", "{77849FBF-DF04-4E2E-888D-A949A9EB3473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserModeConstructs", "Chapter 29. Primitive Thread Synchronization Constructs\Volatile\UserModeConstructs.csproj", "{D29DDEAD-BF68-4F39-BCF0-A8234A169C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,10 @@ Global
 		{6F55D23B-0185-4FB2-AAEF-68AFD5B4EA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F55D23B-0185-4FB2-AAEF-68AFD5B4EA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F55D23B-0185-4FB2-AAEF-68AFD5B4EA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29DDEAD-BF68-4F39-BCF0-A8234A169C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29DDEAD-BF68-4F39-BCF0-A8234A169C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29DDEAD-BF68-4F39-BCF0-A8234A169C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29DDEAD-BF68-4F39-BCF0-A8234A169C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +67,8 @@ Global
 		{443F08D1-61BA-4801-BCF3-758DB394BF42} = {B5AFCE2E-F6EB-481E-936A-2E4D842EABB5}
 		{D63C3524-2264-401A-B995-E7C294BAC5F0} = {B5AFCE2E-F6EB-481E-936A-2E4D842EABB5}
 		{938EE42F-0E15-4806-A5B6-534CE270E68B} = {B5AFCE2E-F6EB-481E-936A-2E4D842EABB5}
+		{6F55D23B-0185-4FB2-AAEF-68AFD5B4EA37} = {CA6F8950-1299-40E6-8439-8BC90EF30263}
+		{D29DDEAD-BF68-4F39-BCF0-A8234A169C7E} = {77849FBF-DF04-4E2E-888D-A949A9EB3473}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E438D89A-9203-459C-9B8E-3AF9901167AC}
